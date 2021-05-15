@@ -6,6 +6,10 @@ public class Drummer extends Human implements BandActions {
         System.out.println("*BA-DUM-TSS!*");
     }
 
+    public  void play(String song){
+        System.out.println("I'd like to sing a song: " + song);
+    }
+
     @Override
     public void bandMembersAmount() {
         System.out.println("There are " + membersAmount + " members in my band!!!");
